@@ -15,7 +15,7 @@ public class CountingSort {
     public static void main(String[] args) {
         int[] input = {2,5,9,8,2,7,10,4,8};
       //  countingSort(input ,min: 1,max: 2);
-        countingSort(input, 1,10);
+        countingSort(input, 1,10); //input and range
         Arrays.stream(input).forEach(x->System.out.print(x + " "));
     }
     private static void countingSort(int[] input, int min ,int max){
